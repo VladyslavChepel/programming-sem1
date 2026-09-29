@@ -14,15 +14,14 @@ int main(void) {
     unsigned char byte_test = 255;
 
     printf("\n інтеджер оверфлоу \n");
-    printf("Начальное значение:\n");
-    printf("Десятичный формат:     %u\n", byte_test);
-    printf("Шестнадцатеричный:     0x%02X\n", byte_test);
+    printf("десятковий формат:     %u\n", byte_test);
+    printf("шістнадцятковий:     0x%02X\n", byte_test);
 
     byte_test = byte_test + 1;
 
     printf("\n інтеджер оверфлоу + 1 \n");
-    printf("Десятичный формат:     %u\n", byte_test);
-    printf("Шестнадцатеричный:     0x%02X\n", byte_test);
+    printf("десятковий формат:     %u\n", byte_test);
+    printf("шістнадцятковий:     0x%02X\n", byte_test);
 
     return 0;
 }
