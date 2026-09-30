@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 int main(void) {
-    double m = 0.0; // Маса тягарця (кг)
-    double k = 0.0; // Жорсткість пружини (Н/м)
-    // 1. Введення маси
+    double m = 0.0;
+    double k = 0.0;
     printf("Введіть масу: ");
     if (scanf("%lf", &m) != 1) {
         printf("некоректні дані (очікувалося число)\n");
